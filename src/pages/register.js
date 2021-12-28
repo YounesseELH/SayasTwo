@@ -91,7 +91,7 @@ export default class Register extends Component {
                                     {isLoading ? (
                                         <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                                     ) : (
-                                        <span></span>
+                                        <span></span>git 
                                     )}
                                 </button>
                             </div>
