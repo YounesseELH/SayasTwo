@@ -13,7 +13,14 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="App" style={{ 
+                backgroundImage: `url("https://wallpaperaccess.com/full/952192.jpg")`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                width: '100vw',
+                height: '100vh'
+              }}>
                 <Router>
                     <Switch>
                         <Route exact path='/' component={Login} />
