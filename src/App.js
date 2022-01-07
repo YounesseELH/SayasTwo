@@ -8,6 +8,9 @@ import EditPage from "./pages/edit";
 import Register from "./pages/register";
 import NotFound from "./pages/notfound";
 import FileUploadPage from "./pages/fileupload";
+import Timer from "./pages/timer";
+import Timer2 from "./pages/timer2";
+
 
 class App extends Component {
 
@@ -30,6 +33,8 @@ class App extends Component {
                         <Route path='/add' component={AddPage} />
                         <Route path='/edit/' component={EditPage} />
                         <Route path='/fileupload/' component={FileUploadPage} />
+                        <Route path='/timer/' component={Timer} />
+                        <Route path='/timer2/' component={Timer2} />
                         <Route path='*' component={NotFound} />
                     </Switch>
                 </Router>
