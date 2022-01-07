@@ -35,6 +35,19 @@ export default class Sidebar extends Component {
                         <Link to={'/fileupload'} className="nav-link"><i className="fas fa-fw fa-file-archive"></i>
                             <span>&nbsp;File Upload</span></Link>
                     </li>
+                    
+                    <li className="nav-item">
+                        <Link to={'/timer'} className="nav-link"><i className="fas fa-fw fa-file-archive"></i>
+                            <span>&nbsp;Tasks</span></Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link to={'/timer2'} className="nav-link"><i className="fas fa-fw fa-file-archive"></i>
+                            <span>&nbsp;Timer</span></Link>
+                    </li>
+
+
+
                     <li className="nav-item">
                         <a className="nav-link" href="tables.html">
                             <i className="fas fa-fw fa-table"></i>
